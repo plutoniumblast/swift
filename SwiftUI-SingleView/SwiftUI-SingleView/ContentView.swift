@@ -12,6 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack{
+                logo()
                 VStack(alignment: .leading) {
                 Text("☢ Newton").font(.title).foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
                 Text("Newton's Lists").font(.subheadline).foregroundColor(Color(red: 0.0, green: 0.0, blue: 1.0, opacity: 1.0))
@@ -19,7 +20,8 @@ struct ContentView: View {
                 Spacer()
                 Text("Clocks Here").font(.subheadline).foregroundColor(.black)
             }
-        }.padding()
+            Spacer()
+        }.padding(5.0)
     }
 }
 

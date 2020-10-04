@@ -12,10 +12,10 @@ struct logo: View {
     var body: some View {
         Image("logo")
             .resizable()
-            .frame(width: 300, height: 300)
-            .padding(1)
+            .frame(width: 50, height: 50)
+            .padding(0)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.white, lineWidth: 5))
+            .overlay(Circle().stroke(Color.white, lineWidth: 2))
 //            .clipShape(RoundedRectangle(cornerRadius:40,
 //            style: .continuous))
 //            .overlay(RoundedRectangle(cornerRadius:40,
