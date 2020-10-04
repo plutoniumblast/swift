@@ -14,6 +14,7 @@
 		F4003E80252A569F00DE905D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4003E7F252A569F00DE905D /* Preview Assets.xcassets */; };
 		F4003E83252A569F00DE905D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4003E81252A569F00DE905D /* LaunchScreen.storyboard */; };
 		F4003E8E252A56A000DE905D /* SwiftUI_SingleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4003E8D252A56A000DE905D /* SwiftUI_SingleViewUITests.swift */; };
+		F4003E99252A5C1000DE905D /* logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4003E98252A5C1000DE905D /* logo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F4003E89252A56A000DE905D /* SwiftUI-SingleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SingleViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4003E8D252A56A000DE905D /* SwiftUI_SingleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SingleViewUITests.swift; sourceTree = "<group>"; };
 		F4003E8F252A56A000DE905D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4003E98252A5C1000DE905D /* logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F4003E76252A569600DE905D /* AppDelegate.swift */,
 				F4003E78252A569600DE905D /* SceneDelegate.swift */,
 				F4003E7A252A569600DE905D /* ContentView.swift */,
+				F4003E98252A5C1000DE905D /* logo.swift */,
 				F4003E7C252A569F00DE905D /* Assets.xcassets */,
 				F4003E81252A569F00DE905D /* LaunchScreen.storyboard */,
 				F4003E84252A569F00DE905D /* Info.plist */,
@@ -210,6 +213,7 @@
 			files = (
 				F4003E77252A569600DE905D /* AppDelegate.swift in Sources */,
 				F4003E79252A569600DE905D /* SceneDelegate.swift in Sources */,
+				F4003E99252A5C1000DE905D /* logo.swift in Sources */,
 				F4003E7B252A569600DE905D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
