@@ -15,6 +15,7 @@
 		F4003E83252A569F00DE905D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4003E81252A569F00DE905D /* LaunchScreen.storyboard */; };
 		F4003E8E252A56A000DE905D /* SwiftUI_SingleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4003E8D252A56A000DE905D /* SwiftUI_SingleViewUITests.swift */; };
 		F4003E99252A5C1000DE905D /* logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4003E98252A5C1000DE905D /* logo.swift */; };
+		F4003E9B252AD05000DE905D /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4003E9A252AD05000DE905D /* Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F4003E8D252A56A000DE905D /* SwiftUI_SingleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SingleViewUITests.swift; sourceTree = "<group>"; };
 		F4003E8F252A56A000DE905D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4003E98252A5C1000DE905D /* logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logo.swift; sourceTree = "<group>"; };
+		F4003E9A252AD05000DE905D /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Core.swift; path = core/Core.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				F4003E76252A569600DE905D /* AppDelegate.swift */,
 				F4003E78252A569600DE905D /* SceneDelegate.swift */,
 				F4003E7A252A569600DE905D /* ContentView.swift */,
+				F4003E9A252AD05000DE905D /* Core.swift */,
 				F4003E98252A5C1000DE905D /* logo.swift */,
 				F4003E7C252A569F00DE905D /* Assets.xcassets */,
 				F4003E81252A569F00DE905D /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4003E9B252AD05000DE905D /* Core.swift in Sources */,
 				F4003E77252A569600DE905D /* AppDelegate.swift in Sources */,
 				F4003E79252A569600DE905D /* SceneDelegate.swift in Sources */,
 				F4003E99252A5C1000DE905D /* logo.swift in Sources */,
